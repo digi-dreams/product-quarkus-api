@@ -6,11 +6,11 @@ import java.util.List;
 
 public interface ProductRepository {
 
-    List<Product> findAll();
+    List<Product> getAllProducts();
 
-    Product findById(Long id);
+    Product getProductById(Long id);
 
-    void save(Product product);
+    void saveProduct(Product product);
 
-    void deleteById(Long id);
+    void deleteProductById(Long id);
 }
